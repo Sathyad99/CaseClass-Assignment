@@ -10,9 +10,7 @@ object Myapp extends App {
   println(p2.invert)
 }
 
-case class Point(a:Int, b:Int) {
-  def x:Int = a
-  def y:Int = b
+case class Point(x:Int, y:Int) {
 
 //1. method to add two given points
   def add(p:Point) = Point(this.x+p.x,this.y+p.y)
